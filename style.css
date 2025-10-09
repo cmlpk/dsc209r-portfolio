@@ -73,10 +73,86 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 400%;
+  margin-bottom: 0.25em;
 }
 
 h2 {
   margin: 0;
+  font-size: 180%;
+  color: oklch(40% 20% 0);
+  border-bottom: 2px solid var(--color-accent);
+  padding-bottom: 0.25em;
+  margin-bottom: 1em;
+  margin-top: 2em;
+}
+
+
+body > p {
+  text-align: center;
+  color: oklch(50% 5% 200);
+  margin-bottom: 2em;
+  font-size: 95%;
+}
+
+section {
+  margin-bottom: 2.5em;
+}
+
+section:first-of-type h2 {
+  margin-top: 0;
+}
+
+article {
+  margin-bottom: 2em;
+  position: relative;
+  padding-left: 1em;
+  border-left: 3px solid oklch(90% 5% 200);
+}
+
+article:hover {
+  border-left-color: var(--color-accent);
+}
+
+article h3 {
+  font-size: 120%;
+  margin-bottom: 0.25em;
+  color: oklch(35% 15% 0);
+}
+
+article time {
+  display: block;
+  font-size: 90%;
+  color: oklch(55% 10% 200);
+  font-style: italic;
+  margin-bottom: 0.5em;
+}
+
+article p {
+  margin: 0.25em 0;
+  color: oklch(45% 10% 200);
+}
+
+article ul {
+  margin-top: 0.5em;
+  padding-left: 1.5em;
+}
+
+article ul li {
+  margin-bottom: 0.5em;
+}
+
+section:last-of-type ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+section:last-of-type ul li {
+  padding: 0.5em 0;
+  border-bottom: 1px solid oklch(92% 3% 200);
+}
+
+section:last-of-type ul li:last-child {
+  border-bottom: none;
 }
 
 .projects {
@@ -88,4 +164,30 @@ h2 {
 .projects article {
   display: flex;
   flex-direction: column;
+  border-left: none;
+  padding-left: 0;
+}
+
+@media print {
+  body {
+    margin: 0;
+    max-width: none;
+  }
+  
+  nav {
+    display: none;
+  }
+  
+  h1 {
+    font-size: 250%;
+  }
+  
+  h2 {
+    font-size: 140%;
+    page-break-after: avoid;
+  }
+  
+  article {
+    page-break-inside: avoid;
+  }
 }
