@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Clinical Trial Data Pipeline",
+    "year": 2023,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Developed automated ETL pipeline using Python and SQL to streamline clinical trial data processing at Zentalis Pharmaceuticals."
+  },
+  {
+    "title": "R&D Database Optimization",
+    "year": 2024,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Created and optimized research databases using Oracle PL/SQL for efficient data management and retrieval."
+  },
+  {
+    "title": "Interactive Analytics Dashboard",
+    "year": 2024,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Designed Spotfire dashboards for R&D, clinical, and finance departments using SQL-driven data models."
+  },
+  {
+    "title": "Biospecimen Data Analysis",
+    "year": 2023,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Performed data wrangling and transformation using Python and SQL to ensure data accuracy across biospecimen datasets."
+  },
+  {
+    "title": "ETL Parser Tool Implementation",
+    "year": 2022,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Led implementation of ETL parser tool to automate data entry and upload processes for pre-clinical data."
+  },
+  {
+    "title": "Clinical Study Database Management",
+    "year": 2019,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Populated clinical study database using SPSS for over 1000+ patients at Scripps Research."
+  },
+  {
+    "title": "dbt Data Models",
+    "year": 2025,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Develop and optimize dbt models in VS Code using Snowflake for lab operations data at Myriad Genetics."
+  },
+  {
+    "title": "Looker Semantic Models",
+    "year": 2025,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Partner with stakeholders to translate business requirements into Looker Explores and semantic data models."
+  },
+  {
+    "title": "Operations Metrics Analysis",
+    "year": 2023,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Analyzed operations metrics and trends utilizing statistical methods through SQL, Python, and Spotfire."
+  },
+  {
+    "title": "Data Governance Framework",
+    "year": 2024,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Led data management team overseeing database administration, ETL workflows, and data governance practices."
+  },
+  {
+    "title": "CRF Discrepancy Review System",
+    "year": 2019,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Reviewed Case Report Forms and identified discrepancies for clinical trial data quality assurance."
+  },
+  {
+    "title": "Pre-Clinical Data Integration",
+    "year": 2021,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Extracted, transformed, and loaded pre-clinical data into Oracle Database for 10+ research projects."
+  }
+]
