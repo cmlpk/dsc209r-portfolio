@@ -1,5 +1,35 @@
 [
   {
+    "title": "Expository Visualization: Grocery Store Food Processing",
+    "year": 2024,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Designed an expository visualization analyzing food processing levels across Walmart, Target, and Whole Foods using the GroceryDB dataset to communicate insights about consumer dietary health."
+  },
+  {
+    "title": "Persuasive Visualization: Abortion Access Analysis",
+    "year": 2024,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Created two opposing persuasive visualizations exploring abortion data from the Guttmacher Institute, examining the ethical boundaries between earnest and deceptive visualization techniques."
+  },
+  {
+    "title": "Interactive Health Data Explorer",
+    "year": 2024,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Built an interactive D3.js visualization enabling dynamic exploration of health datasets through panning, zooming, brushing, and filtering techniques deployed on GitHub Pages."
+  },
+  {
+    "title": "dbt Data Models",
+    "year": 2025,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Develop and optimize dbt models in VS Code using Snowflake for lab operations data at Myriad Genetics."
+  },
+  {
+    "title": "Looker Semantic Models",
+    "year": 2025,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Partner with stakeholders to translate business requirements into Looker Explores and semantic data models."
+  },
+  {
     "title": "Clinical Trial Data Pipeline",
     "year": 2023,
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
@@ -18,12 +48,6 @@
     "description": "Designed Spotfire dashboards for R&D, clinical, and finance departments using SQL-driven data models."
   },
   {
-    "title": "Biospecimen Data Analysis",
-    "year": 2023,
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Performed data wrangling and transformation using Python and SQL to ensure data accuracy across biospecimen datasets."
-  },
-  {
     "title": "ETL Parser Tool Implementation",
     "year": 2022,
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
@@ -36,34 +60,10 @@
     "description": "Populated clinical study database using SPSS for over 1000+ patients at Scripps Research."
   },
   {
-    "title": "dbt Data Models",
-    "year": 2025,
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Develop and optimize dbt models in VS Code using Snowflake for lab operations data at Myriad Genetics."
-  },
-  {
-    "title": "Looker Semantic Models",
-    "year": 2025,
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Partner with stakeholders to translate business requirements into Looker Explores and semantic data models."
-  },
-  {
-    "title": "Operations Metrics Analysis",
-    "year": 2023,
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Analyzed operations metrics and trends utilizing statistical methods through SQL, Python, and Spotfire."
-  },
-  {
     "title": "Data Governance Framework",
     "year": 2024,
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
     "description": "Led data management team overseeing database administration, ETL workflows, and data governance practices."
-  },
-  {
-    "title": "CRF Discrepancy Review System",
-    "year": 2019,
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Reviewed Case Report Forms and identified discrepancies for clinical trial data quality assurance."
   },
   {
     "title": "Pre-Clinical Data Integration",
