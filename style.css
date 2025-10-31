@@ -217,3 +217,101 @@ section:last-of-type ul li:last-child {
   margin: 0;
   text-align: center;
 }
+
+
+/* Search bar styling */
+.searchBar {
+  width: 100%;
+  padding: 0.75em;
+  margin-bottom: 2em;
+  border: 2px solid oklch(80% 5% 200);
+  border-radius: 0.5em;
+  font-size: 100%;
+}
+
+.searchBar:focus {
+  outline: none;
+  border-color: var(--color-accent);
+}
+
+/* Container for pie chart and legend */
+.container {
+  display: flex;
+  gap: 2em;
+  align-items: flex-start;
+  margin-bottom: 3em;
+}
+
+/* SVG pie chart styling */
+#projects-pie-plot {
+  max-width: 20em;
+  margin-block: 2em;
+  overflow: visible;
+}
+
+#projects-pie-plot path {
+  cursor: pointer;
+  transition: 300ms;
+}
+
+/* Hover effect on wedges */
+#projects-pie-plot:has(path:hover) path:not(:hover) {
+  opacity: 0.5;
+}
+
+/* Selected wedge styling */
+.selected {
+  --color: oklch(60% 45% 0) !important;
+}
+
+.selected:is(path) {
+  fill: var(--color);
+}
+
+/* Legend styling */
+.legend {
+  flex: 1;
+  list-style: none;
+  padding: 1em;
+  margin: 0;
+  border: 1px solid oklch(85% 5% 200);
+  border-radius: 0.5em;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+  gap: 1em;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  cursor: pointer;
+  padding: 0.25em;
+  border-radius: 0.25em;
+  transition: 200ms;
+}
+
+.legend-item:hover {
+  background-color: oklch(95% 5% 200);
+}
+
+.legend-item.selected {
+  background-color: oklch(90% 10% 0);
+  font-weight: bold;
+}
+
+/* Swatch styling */
+.swatch {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-color: var(--color);
+  border-radius: 0.2em;
+  border: 1px solid oklch(70% 5% 200);
+}
+
+.legend-item em {
+  font-style: normal;
+  color: oklch(60% 10% 200);
+  font-size: 90%;
+}
