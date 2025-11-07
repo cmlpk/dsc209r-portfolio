@@ -315,3 +315,19 @@ section:last-of-type ul li:last-child {
   color: oklch(60% 10% 200);
   font-size: 90%;
 }
+
+.stats {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.5em 1em;
+  margin: 2em 0;
+}
+
+.stats dt {
+  font-weight: bold;
+  color: oklch(40% 20% 0);
+}
+
+.stats dd {
+  margin: 0;
+}
