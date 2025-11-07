@@ -50,6 +50,16 @@ function renderCommitInfo(data, commits) {
 
   dl.append('dt').text('Total commits');
   dl.append('dd').text(commits.length);
+
+  // Number of files
+  dl.append('dt').text('Number of files');
+  dl.append('dd').text(d3.group(data, d => d.file).size);
+
+  // Average file length
+  const fileLengths = d3.rollups(data, v => d3.max(v, v => v.line), d => d.file);
+  const averageFileLength = d3.mean(fileLengths, d => d[1]);
+  dl.append('dt').text('Average file length');
+  dl.append('dd').text(Math.round(averageFileLength) + ' lines');
 }
 
 renderCommitInfo(data, commits);
