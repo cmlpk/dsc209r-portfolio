@@ -331,3 +331,12 @@ section:last-of-type ul li:last-child {
 .stats dd {
   margin: 0;
 }
+
+.gridlines line {
+  stroke: oklch(85% 5% 200);
+  stroke-opacity: 0.5;
+}
+
+.gridlines .domain {
+  display: none;
+}
