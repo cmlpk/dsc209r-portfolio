@@ -38,7 +38,7 @@ function processCommits(data) {
     });
     
     return ret;
-  }).sort((a, b) => a.datetime - b.datetime); // Sort by datetime
+  }).sort((a, b) => a.datetime - b.datetime);
 }
 
 let xScale, yScale;
@@ -328,7 +328,7 @@ function updateFileDisplay(filteredCommits) {
     );
 
   filesContainer.select('dt > code').text((d) => d.name);
-  filesContainer.select('dt > small').html((d) => `${d.lines.length} lines`);
+  filesContainer.select('dt > small').text((d) => `${d.lines.length} lines`);
   
   filesContainer
     .select('dd')
@@ -336,7 +336,7 @@ function updateFileDisplay(filteredCommits) {
     .data((d) => d.lines)
     .join('div')
     .attr('class', 'loc')
-    .style('--color', (d) => colors(d.type));
+    .attr('style', (d) => `--color: ${colors(d.type)}`);
 }
 
 function onTimeSliderChange() {
